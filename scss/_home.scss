@@ -1,0 +1,11 @@
+.home {
+  background-image: url("../../img/jokebear2.jpg");
+  // background-position: center center;
+  height: 100vh;
+  p {
+    position: absolute;
+    margin-top: 245px;
+    left: 58%;
+    transform: translate(0, -58%);
+  }
+}

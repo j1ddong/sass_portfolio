@@ -1,0 +1,41 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 10px 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.home {
+  background-image: url("../../img/jokebear2.jpg");
+  height: 100vh;
+}
+.home p {
+  position: absolute;
+  margin-top: 245px;
+  left: 58%;
+  transform: translate(0, -58%);
+}
+
+.footer p {
+  text-align: center;
+  font-size: 13px;
+}
+
+.icons {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
